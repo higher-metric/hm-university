@@ -50,6 +50,7 @@ function hm_university_register_event_post_type() {
 		'show_in_rest'          => true,
 		'rest_base'             => 'events',
 		'rest_controller_class' => 'WP_REST_Posts_Controller',
+		'menu_position'			=> 3,
 	) );
 }
 
